@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="shop-core" />
+        <module name="shop-portal-web" />
+        <module name="shop-admin" />
+        <module name="shop-admin-base-web-starter" />
+        <module name="shop" />
+        <module name="shop-dependencies" />
+        <module name="shop-commons-static" />
+        <module name="shop-portal-base-web-starter" />
+        <module name="shop-commons-core" />
+        <module name="shop-portal" />
+        <module name="shop-admin-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="shop" target="1.8" />
+      <module name="shop-admin" target="1.8" />
+      <module name="shop-admin-base-web-starter" target="1.8" />
+      <module name="shop-admin-web" target="1.8" />
+      <module name="shop-commons-core" target="1.8" />
+      <module name="shop-commons-static" target="1.8" />
+      <module name="shop-core" target="1.8" />
+      <module name="shop-dependencies" target="1.8" />
+      <module name="shop-portal" target="1.8" />
+      <module name="shop-portal-base-web-starter" target="1.8" />
+      <module name="shop-portal-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="shop" options="-parameters" />
+      <module name="shop-admin" options="-parameters" />
+      <module name="shop-admin-base-web-starter" options="-parameters" />
+      <module name="shop-admin-web" options="-parameters" />
+      <module name="shop-commons-core" options="-parameters" />
+      <module name="shop-commons-static" options="-parameters" />
+      <module name="shop-core" options="-parameters" />
+      <module name="shop-dependencies" options="-parameters" />
+      <module name="shop-portal" options="-parameters" />
+      <module name="shop-portal-base-web-starter" options="-parameters" />
+      <module name="shop-portal-web" options="-parameters" />
+    </option>
+  </component>
+</project>
